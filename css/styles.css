@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  color: #2e2f42;
+  color: #434455;
 }
 
 ul {
@@ -18,7 +18,7 @@ a {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -26,7 +26,7 @@ a {
 .logo-span {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #2e2f42;
@@ -54,6 +54,10 @@ a {
 .mail-tel:hover,
 .mail-tel:focus {
   color: #404bbf;
+}
+
+.address {
+  font-style: normal;
 }
 /* #endregion header */
 
@@ -90,6 +94,15 @@ button {
 /* #endregion hero */
 
 /* #region section1 */
+.title-advantages {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
 .Feature {
   font-weight: 500;
   font-size: 20px;
@@ -121,6 +134,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .descripcion-name {
@@ -151,6 +165,7 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .project-card {
   background-color: #fff;
@@ -179,7 +194,7 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -188,7 +203,7 @@ button {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
